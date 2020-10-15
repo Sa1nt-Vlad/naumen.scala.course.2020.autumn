@@ -1,0 +1,110 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\vlads\AppData\Local\Temp\idea5.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\vlads\AppData\Local\Temp\idea5.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (JetBrains s.r.o. Java 11.0.7)
+[debug]       Load.loadUnit: plugins took 231.4443ms
+[debug]       Load.loadUnit: defsScala took 0.5034ms
+[debug] [Loading] Scanning directory C:\Users\vlads\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vlads\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 61.4315 ms
+[debug]           Load.resolveProject(global-plugins) took 113.42ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\vlads\.sbt\1.0\plugins, plugins: List(<none>))) took 220.1904ms
+[debug] [Loading] Done in C:\Users\vlads\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 268.741ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4424ms
+[debug]     Load.loadUnit(file:/C:/Users/vlads/.sbt/1.0/plugins/, ...) took 515.0967ms
+[debug]   Load.apply: load took 938.1664ms
+[debug]   Load.apply: resolveProjects took 14.5855ms
+[debug]   Load.apply: finalTransforms took 132.4058ms
+[debug]   Load.apply: config.delegates took 13.6755ms
+[debug]   Load.apply: Def.make(settings)... took 1352.8536ms
+[debug]   Load.apply: structureIndex took 214.4612ms
+[debug]   Load.apply: mkStreams took 2.495ms
+[info] loading global plugins from C:\Users\vlads\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 6469.1085ms
+[debug]           Load.loadUnit: plugins took 61.0319ms
+[debug]           Load.loadUnit: defsScala took 0.0071ms
+[debug] [Loading] Scanning directory D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\project
+[debug]             Load.loadUnit: mkEval took 11.7316ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2523 ms
+[info] loading settings for project task_3-build from idea5.sbt ...
+[debug]               Load.resolveProject(task_3-build) took 6.4201ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id task_3-build, base: D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\project, plugins: List(<none>))) took 9.5516ms
+[debug] [Loading] Done in D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\project, returning: (task_3-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 280.4412ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.7239ms
+[debug]         Load.loadUnit(file:/D:/Projects%20Scala/NAUMEN/naumen.scala.course.2020.autumn/homeworks/homework_1/task_3/project/, ...) took 348.6532ms
+[debug]       Load.apply: load took 351.3222ms
+[debug]       Load.apply: resolveProjects took 0.1529ms
+[debug]       Load.apply: finalTransforms took 15.1615ms
+[debug]       Load.apply: config.delegates took 0.4865ms
+[debug]       Load.apply: Def.make(settings)... took 258.4345ms
+[debug]       Load.apply: structureIndex took 47.266ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5111.3988ms
+[debug]     Load.loadUnit: defsScala took 0.0043ms
+[debug] [Loading] Scanning directory D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3
+[debug]       Load.loadUnit: mkEval took 0.3165ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.9901 ms
+[info] loading settings for project task_3 from build.sbt ...
+[debug]         Load.resolveProject(task_3) took 47.2102ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id task_3, base: D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3, plugins: List(<none>))) took 52.3598ms
+[debug] [Loading] Done in D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3, returning: (task_3)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3758.3709ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.1176ms
+[debug]   Load.loadUnit(file:/D:/Projects%20Scala/NAUMEN/naumen.scala.course.2020.autumn/homeworks/homework_1/task_3/, ...) took 8877.6101ms
+[debug] Load.apply: load took 8879.8561ms
+[debug] Load.apply: resolveProjects took 0.1378ms
+[debug] Load.apply: finalTransforms took 41.2191ms
+[debug] Load.apply: config.delegates took 0.3893ms
+[debug] Load.apply: Def.make(settings)... took 116.6959ms
+[debug] Load.apply: structureIndex took 30.0995ms
+[debug] Load.apply: mkStreams took 0.0129ms
+[info] set current project to FirstSbt (in build file:/D:/Projects%20Scala/NAUMEN/naumen.scala.course.2020.autumn/homeworks/homework_1/task_3/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * task_3 / mainClass
+[warn]   +- D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\build.sbt:7
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63984 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63984, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to FirstSbt (in build file:/D:/Projects%20Scala/NAUMEN/naumen.scala.course.2020.autumn/homeworks/homework_1/task_3/)
+[debug] > Exec(idea-shell, None, None)

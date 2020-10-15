@@ -1,0 +1,11 @@
+[debug] Packaging D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\target\scala-2.13\firstsbt_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Example
+[debug] 	  D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\target\scala-2.13\classes\Example
+[debug] 	Example\Main$.class
+[debug] 	  D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\target\scala-2.13\classes\Example\Main$.class
+[debug] 	Example\Main$delayedInit$body.class
+[debug] 	  D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\target\scala-2.13\classes\Example\Main$delayedInit$body.class
+[debug] 	Example\Main.class
+[debug] 	  D:\Projects Scala\NAUMEN\naumen.scala.course.2020.autumn\homeworks\homework_1\task_3\target\scala-2.13\classes\Example\Main.class
+[debug] Done packaging.
