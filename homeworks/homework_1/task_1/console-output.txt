@@ -1,0 +1,23 @@
+Welcome to Scala 2.13.3 (OpenJDK 64-Bit Server VM, Java 11.0.7).
+Type in expressions for evaluation. Or try :help.
+
+scala> val fullname: String = "Vladislav Savitskiy"
+val fullname: String = Vladislav Savitskiy
+
+scala> println(s"Hello Scala! This is ${fullname}!")
+Hello Scala! This is Vladislav Savitskiy!
+
+scala> println(s"Hola Scala! This is ${fullname}!")
+Hola Scala! This is Vladislav Savitskiy!
+
+scala> println(s"Guten tag Scala! This is ${fullname}!")
+Guten tag Scala! This is Vladislav Savitskiy!
+
+scala> println(s"Hello Scala! This is ${fullname.reverse}!")
+Hello Scala! This is yikstivaS valsidalV!
+
+scala> println(s"Hola Scala! This is ${fullname.reverse}!")
+Hola Scala! This is yikstivaS valsidalV!
+
+scala> println(s"Guten tag Scala! This is ${fullname.reverse}!")
+Guten tag Scala! This is yikstivaS valsidalV!
