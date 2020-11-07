@@ -1,4 +1,6 @@
 import utest._
+import Cells._
+import Table._
 
 object Test extends TestSuite {
     val tests = Tests {

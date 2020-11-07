@@ -1,0 +1,3 @@
+package Cells
+
+trait Cell
